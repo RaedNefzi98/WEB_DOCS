@@ -9,14 +9,11 @@
 
 
  <h1>Web Docs Collaboration App</h1>
-
     <p>This is a modern web application that enables users to collaboratively create documents in a real-time web
         environment. The application leverages Socket.io for real-time communication between users and utilizes a
         MongoDB database for document storage. Users can access the application through a user-friendly front-end
         built with React, and the back-end is implemented using Node.js and MongoDB.</p>
-
     <h2>Features</h2>
-
     <ul>
         <li>Real-time collaboration: Multiple users can edit the same document simultaneously in real-time.</li>
         <li>Instant updates: Changes made by one user are immediately reflected to all other connected users.</li>
@@ -26,15 +23,11 @@
         <li>Dynamic document creation: Users are provided with unique document URLs upon accessing the application,
             allowing easy sharing and collaboration.</li>
     </ul>
-
     <h2>Technologies Used</h2>
-
     <p><strong>Front-End:</strong> React, React Router, Quill</p>
     <p><strong>Back-End:</strong> Node.js, Express, MongoDB, Socket.io</p>
     <p><strong>Styling:</strong> CSS</p>
-
     <h2>Getting Started</h2>
-
     <ol>
         <li>Clone the repository:
             <pre><code>git clone https://github.com/your-username/web-docs-app.git</code></pre>
@@ -57,17 +50,12 @@ npm start</code></pre>
         </li>
         <li>Access the application in your web browser at <code>http://localhost:3000</code>.</li>
     </ol>
-
     <h2>How It Works</h2>
-
     <h3>Front-End</h3>
-
     <p>The front-end is built using React and provides a user-friendly text editor interface using the Quill library.
         Users can access the application through a unique URL that represents a document. Multiple users can
         collaborate on the same document in real-time.</p>
-
     <h3>Back-End</h3>
-
     <p>The back-end is implemented using Node.js and Express. It connects to a MongoDB database to store and retrieve
         document data. Socket.io is used for real-time communication between users. The back-end handles document
         creation, retrieval, saving, and real-time updates.</p>
