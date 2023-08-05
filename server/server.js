@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 const Document = require("./Document")
-const uri = "mongodb+srv://spring:spring123.@cluster0.0obwapc.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://@cluster0.0obwapc.mongodb.net/?retryWrites=true&w=majority";
 mongoose
   .connect(uri, {
     useNewUrlParser: true,
